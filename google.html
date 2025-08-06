@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
        <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand fs-2" style="color: #54524f;" href="#">Navbar</a>
+    <button class="navbar-toggler shdow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -177,8 +178,73 @@
       </div>
     </div>
   </div>
+  <div id="artage">
+    <div class="container">
+      <div class="artage">
+        <div class="row">
+                  <div class="col-md-6 footerLeft">
+          <h2>Artage travels</h2>
+        <p>Lorem ipsum dolor s it amet consectetur, adipisicing elit. Numquam beatae veniam quas! Corrupti a tenetur beatae itaque reprehenderit consequuntur, expedita natus eaque doloremque eius obcaecati, recusandae enim, temporibus ipsam eos.</p>
+        <ul>
+            <li><a href="#instagram"><i class="bi bi-instagram"></i></a></li>
+             <li><a href="#facebook"><i class="bi bi-facebook"></i></a></li>
+             <li><a href="#youtube"><i class="bi bi-youtube"></i></a></li>
+              <li><a href="#twitter"><i class="bi bi-twitter"></i></a></li>
+           
+          </ul>
+          
+        </div>
+        
+           <div class="col-md-6">
+            <div class="row footerNav">
+              <div class="col-sm-4">
+                <h3>About</h3>
+                <ul>
+                  <li><a>History</a></li>
+                  <li><a>Our Team</a></li>
+                  <li><a>Brand Guidelines</a></li>
+                  <li><a>Terms & Condition</a></li>
+                  <li><a>Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h3>Services</h3>
+                <ul>
+                  <li><a>How to Order</a></li>
+                  <li><a>Our Product</a></li>
+                  <li><a>Order Status</a></li>
+                  <li><a>Promo</a></li>
+                  <li><a>Payment Method</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-4">
+                <h3>Other</h3>
+                <ul>
+                  <li><a>Contact Us</a></li>
+                  <li><a>Help</a></li>
+                  <li><a>Privacy</a></li>
+                </ul>
+              </div>
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript">
+        var nav = document.querySelector('nav');
+  
+        window.addEventListener('scroll', function() {
+          if (window.pageYOffset > 100) {
+            nav.classList.add('bg-white', 'shadow');
+          } else {
+            nav.classList.remove('bg-white', 'shadow');
+          }
+        });
+      </script>
     
 </body>
 </html>

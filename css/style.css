@@ -6,6 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+ul{
+    list-style: none;
+}
 .pagecover{
     display: flex;
     background: url(../images/artage_travelblogbg.jpg) no-repeat center;
@@ -238,4 +241,65 @@ margin-top: 10px;
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
+}
+#artage{
+    background: url("../images/artage_bg_style_03.png") no-repeat bottom right;
+    background-color: #7f7770;
+}
+.artage{
+    padding: 100px 0;  
+    
+}
+.footerLeft ul{
+    display: flex;
+    padding: 0 !important;
+
+}
+.footerLeft ul li  a{
+    padding: 20px 30px 20px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+
+
+}
+.footerLeft h2{
+    color: #fff;
+    font-size: 24px;
+}
+.footerLeft p{
+    color: #fff;
+    font-size: 16px;
+}
+
+.footerLeft ul li a:hover{
+    color: #dbaa6d;
+}
+.footerLeft ul li a i{
+    font-size: 24px;
+}
+.footerNav {
+    padding: 50px 10px;
+}
+.footerNav h3{
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.footerNav ul{
+    padding: 0 !important;
+}
+
+.footerNav .col-sm-4 ul li a{
+    padding: 20px 30px 20px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+
+}
+.footerNav .col-sm-4 ul li a:hover{
+    color: #dbaa6d;
+    padding-left: 15px;
+    font-weight: 600;
 }
